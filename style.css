@@ -1,0 +1,162 @@
+@import url(https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&display=swap);
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Orbitron;
+    
+}
+
+body{
+    padding: 20px 70px 30px 70px;
+}
+/* Navbar */
+.navbar-container{
+    width:100%;
+    margin-bottom: 50px;
+    
+}
+.navbar-container>div{
+    display: inline-block;
+}
+.navbar-container>div~div>.list>li{
+    margin: 20px 20px;
+}
+
+
+.list{
+    list-style: none;
+   padding: 0;
+   width: 550px;
+   float: left;
+}
+.list>li{
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    left: 50%;
+}
+
+.button-group{
+    float: right;
+    margin-top: 15px ;
+}
+.button-group>div{
+    display: inline-block;
+}
+
+
+.nav-button{
+    padding: 5px 35px;
+    margin-left: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Poppins;
+    background-color: white;
+}
+.search-button{
+    float: left;
+}
+.search-button{
+    float: right;
+}
+/*  Nav bar section ends */
+
+
+.hero-container{
+    position: relative;
+}
+
+.square, .star, .globe{
+    position: absolute;
+}
+
+
+/* Css on Square grid Behind hero img */
+.hero-container .square{
+    margin-top: 145px;
+    margin-left: 30px;
+}
+
+/* Css On Star */
+.hero-container .star{
+    margin-top: 50px;
+    margin-left: 95%;
+}
+
+.hero-container .star img{
+    height: 60px;
+}
+
+
+/* Css On Globe */
+.hero-container .globe{
+    margin-left: 750px;
+}
+.hero-container .globe img{
+    height: 60px;
+}
+
+
+/* Css on hero image */
+.hero-container .hero-img img{
+    position: absolute;
+    margin-top: 40px;
+    height: 450px;
+}
+
+/* --------- Left side CSS ends ----------- */
+
+/* Right section CSS */
+.hero-container-right{
+    float: right;
+    margin-top: 150px;
+    margin-left: 40%;
+}
+/* Heading */
+.hero-heading{
+    text-align: center;
+    font-size: 61px;
+}
+
+/* Paragraph */
+.hero-description{
+    text-align: center;
+    padding: 50px;
+    font-family: Poppins;
+    color: grey;
+}
+
+/* Div for email and join */
+.button-email{
+    border-radius: 5px;
+    margin-left: 250px;
+    padding: 0px 20px;
+    font-size: large;
+    background-color: white;
+}
+
+.button-join{
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: large;
+    color: white;
+    background-color: black;
+}
+
+/* Contact */
+.contact-heading{
+    text-align: center;
+    padding: 30px 0px;
+}
+
+/* Icons */
+.icons{
+    width: 100%;
+    margin-left: 300px;
+}
+
+/* Social icons */
+.icons .social{
+    margin-left: 10px;
+}
